@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+#flag{
+    height: 200px;
+    width: 265px;
+}
+#di{
+    text-align: center;
+    float: left;
+    width: 330px;
+    padding: 0px;
+    list-style-type:none;
+    border: 1px solid hsl(33, 61%, 66%);
+    margin: 20px;
+    background-image: linear-gradient(to right, rgb(104, 118, 35) , rgb(251, 251, 169));
+    
+}
+#mainbody{
+    position: relative;
+    left: 390px;
+    background-color: rgb(31, 31, 53);
+    width: 60%;
+    color: rgb(254, 254, 254);
+    font-family:'Courier New', Courier, monospace;
+   
+    
+}
+#countryname{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#weartherdetails,#weartherdetails1,#weartherdetails2{
+    margin-bottom: 20px;
+    padding: 3px;
+    background-color:rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+}
+#flag{
+    margin-left:1px ;
+    margin-right:1px ;
+}
